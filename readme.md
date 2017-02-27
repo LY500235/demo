@@ -7,4 +7,5 @@
 
 	\r\n git init
 
+        追加一行
 
