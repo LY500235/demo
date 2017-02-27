@@ -1,5 +1,5 @@
 # git使用
-1、创建一个git的本地仓库
+#1、创建一个git的本地仓库
 
 	git mkdir git_demo
 	cd  git_demo 
@@ -17,6 +17,8 @@
 	git commit -m "提交的注释"
 	git push -u origin master
 这样就提交到 github 上面了
+
+#2 、git分支
 
 	通常情况下，当我们需要添加一个新功能的时候，我们不能再主线程上添加修改， 需要新建一个分支来修改。好处： 可以及时的回滚代码。
 	# 新建分支
@@ -42,6 +44,20 @@
 	
 	git push origin:iss1
 
+	
+#3、解决冲突
 
-
+	vim  file1
+	
+	<<<<<<HEAD
+	fiel1  add
+	======
+	fiel + del 
+	>>>>>>
+	
+	退出保存(:wq)
+	git add 
+	git commit
+	git push
+	推送到远程分支
 
