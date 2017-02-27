@@ -1,2 +1,3 @@
 # git测试
-	hello，world
+	hello，world, readme.md
+\r\n git init
